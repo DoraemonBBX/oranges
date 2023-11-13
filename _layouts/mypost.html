@@ -9,9 +9,28 @@
   <div class="subtitle">
     <span>{{site.author}} 于 {{ page.date | date: "%Y-%m-%d" }} 发布</span>
     {%- if site.extCount %}
-      <span>浏览量</span>
+      <span>浏览量：</span>
       <span id="busuanzi_value_page_pv"></span>
     {% endif %}
+  </div>
+  <div class="Meting">
+    <meting-js
+    server="netease"
+    type="playlist"
+    id="8199833036"
+    name="苦橘馆"            
+    fixed="false"
+    mini="false"
+    autoplay="ture"
+    loop="all"
+    order="random"
+    preload="auto"
+    volume="0.45"
+    mutex="ture"
+    list-folded="ture"
+    >
+</meting-js>
+
   </div>
   {% endif %}
   <div class="post">
