@@ -55,8 +55,8 @@ extCount: ture
 
 #reward
 reward: true
-reward-alipay: 'https://jsd.cdn.zzko.cn/gh/DoraemonBBX/IMG@master/QR-Code/reward.jpg'
-reward-wecaht: 'https://jsd.cdn.zzko.cn/gh/DoraemonBBX/IMG@master/QR-Code/赞赏码.jpg'
+reward-alipay: '/static/img/alipay.jpg'
+reward-wecaht: '/static/img/wechatpay.jpg'
 
 # 友情链接
 links:
