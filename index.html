@@ -28,22 +28,12 @@ title: 首页
     </div>
     {%- endif %}
   {%- endfor %}
-</div>
-<div class="music-mini">
-  <meting-js
-    server="netease"
-    type="playlist"
-    id="8199833036"
-    name="苦橘馆"            
-    fixed="ture"
-    mini="ture"
-    autoplay="ture"
-    loop="all"
-    order="random"
-    preload="auto"
-    volume="0.45"
-    mutex="ture"
-    list-folded="ture"
-    >
-  </meting-js>
-</div>
+
+<!--APlayer 底部音乐播放器 | 教程：https://accelerator086.github.io/2020/04/03/Jekyll-Aplayer-MetingJS/ -->
+<script src="https://jsd.cdn.zzko.cn/npm/vconsole/dist/vconsole.min.js"></script>
+<link rel="stylesheet" href="https://jsd.cdn.zzko.cn/npm/aplayer@1.10.1/dist/APlayer.min.css">
+<script src="https://jsd.cdn.zzko.cn/npm/hls.js/dist/hls.min.js"></script>
+<script src="https://jsd.cdn.zzko.cn/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<script src="https://jsd.cdn.zzko.cn/npm/color-thief-don@2.0.2/src/color-thief.js"></script>
+<script src="/Meting.min.js"></script>
+<meting-js server="netease" type="playlist" id="8199833036" fixed="true"></meting-js>

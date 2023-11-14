@@ -53,6 +53,11 @@ extMath: false
 # 显示访问量统计，由不蒜子提供服务
 extCount: ture
 
+#reward
+reward: true
+reward-alipay: 'https://jsd.cdn.zzko.cn/gh/DoraemonBBX/IMG@master/QR-Code/reward.jpg'
+reward-wecaht: 'https://jsd.cdn.zzko.cn/gh/DoraemonBBX/IMG@master/QR-Code/赞赏码.jpg'
+
 # 友情链接
 links:
   - title: 苦橘馆发布页

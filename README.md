@@ -1,3 +1,10 @@
+
+
+
+<details>
+
+<summary>主题原文</summary>
+
 # 介绍
 
 [![Language](https://img.shields.io/badge/Jekyll-Theme-blue)](https://github.com/TMaize/tmaize-blog)
@@ -90,3 +97,4 @@ categories: [分类1, 分类2]
 
 [xxx.zip 下载](xxx.zip)
 ```
+</details>

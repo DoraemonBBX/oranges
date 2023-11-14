@@ -2,6 +2,9 @@
 <html lang="zh-CN">
 {% include head.html -%}
 <body>
+  <!--[if lt IE 10]>
+<div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
+<![endif]-->
 {% include header.html -%}
 <div class="page page-post">
   <h1 class="title" id="{{ page.title }}">{{ page.title }}</h1>
@@ -13,29 +16,19 @@
       <span id="busuanzi_value_page_pv"></span>
     {% endif %}
   </div>
-  <div class="Meting">
-    <meting-js
-    server="netease"
-    type="playlist"
-    id="8199833036"
-    name="苦橘馆"            
-    fixed="false"
-    mini="false"
-    autoplay="ture"
-    loop="all"
-    order="random"
-    preload="auto"
-    volume="0.45"
-    mutex="ture"
-    list-folded="ture"
-    >
-</meting-js>
-
-  </div>
   {% endif %}
   <div class="post">
     {{ content }}
   </div>
+  {% if site.reward %}
+  <div class="reward">
+      <div class="reward-button">赏<span class="reward-code">
+          <span class="alipay-code"> <img class="alipay-img wdp-appear" src="{{ site.baseurl }}{{ site.reward-alipay }}"><b>支付宝打赏</b> </span>
+          <span class="wechat-code"> <img class="wechat-img wdp-appear" src="{{ site.baseurl }}{{ site.reward-wechat }}"><b>微信打赏</b> </span> </span>
+      </div>
+      <p class="reward-notice">您的打赏是对我最大的鼓励！</p>
+  </div>
+{% endif %}
   {% if site.extAdsense -%}
   <div class="adsense" style="overflow: hidden;">
     {% include ext-adsense.html -%}

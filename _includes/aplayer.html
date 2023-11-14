@@ -1,0 +1,27 @@
+<!-- require APlayer -->
+<link rel="stylesheet" href="https://jsd.cdn.zzko.cn/npm/aplayer/dist/APlayer.min.css">
+<script src="https://jsd.cdn.zzko.cn/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="/Meting.min.js"></script>
+
+<!-- metingjs 加载参数： https://github.com/metowolf/MetingJS -->
+<meting-js
+	server="\{\{ page.apserver \}\}"
+	type="\{\{ page.aptype \}\}"
+	id="\{\{ page.apsongid \}\}"
+    order="list"
+	autoplay="true"
+    volume="0.35"
+	theme="#CC0000"
+	list-max-height="340px"
+	preload="auto"
+    list-folded="true">
+</meting-js>
+
+<!--自定义服务器
+    <script>
+var meting_api='http://example.com/api.php?server=:server&type=:type&id=:id&auth=:auth&r=:r';
+</script>
+
+<script src="dist/Meting.min.js"></script>
+-->
