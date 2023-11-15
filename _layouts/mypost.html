@@ -2,9 +2,7 @@
 <html lang="zh-CN">
 {% include head.html -%}
 <body>
-  <!--[if lt IE 10]>
-<div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
-<![endif]-->
+
 {% include header.html -%}
 <div class="page page-post">
   <h1 class="title" id="{{ page.title }}">{{ page.title }}</h1>
@@ -18,9 +16,11 @@
   </div>
   {% endif %}
   <!-- APlayer 音乐模块：https://accelerator086.github.io/2020/04/03/Jekyll-Aplayer-MetingJS/#%E6%8F%92%E5%85%A5%E5%8D%9A%E5%AE%A2%E9%A1%B6%E9%83%A8%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8 -->
- <!-- {% if page.apsongid %}
-  {% include aplayer.html %}
-  {% endif %} -->
+  <div class="meting-js">
+    {% if page.apsongid %}
+      {% include aplayer.html %}
+    {% endif %}
+  </div>
   <div class="post">
     {{ content }}
   </div>
