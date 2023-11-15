@@ -53,10 +53,10 @@ extMath: false
 # 显示访问量统计，由不蒜子提供服务
 extCount: ture
 
-#reward
+# Reward
 reward: true
+reward-wechat: '/static/img/reward/wechat.jpg'
 reward-alipay: '/static/img/reward/alipay.jpg'
-reward-wecaht: '/static/img/reward/wechatpay.jpg'
 
 # 友情链接
 links:
