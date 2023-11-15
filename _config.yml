@@ -55,8 +55,8 @@ extCount: ture
 
 #reward
 reward: true
-reward-alipay: '/static/img/alipay.jpg'
-reward-wecaht: '/static/img/wechatpay.jpg'
+reward-alipay: '/static/img/reward/alipay.jpg'
+reward-wecaht: '/static/img/reward/wechatpay.jpg'
 
 # 友情链接
 links:
