@@ -6,13 +6,13 @@
 
 <!-- metingjs 加载参数： https://github.com/metowolf/MetingJS -->
 <meting-js
-	server="{{ page.apserver }}"
-	type="{{ page.aptype }}"
-	id="{{ page.apsongid }}"
-    order="list"
-	autoplay="true"
+	server="{{ page.server }}"
+	type="{{ page.type }}"
+	id="{{ page.id }}"
+    order="random"
+	autoplay="{{page.autoplay}}"
     volume="0.35"
-	theme="#CC0000"
+	theme="{{page.theme}}"
 	list-max-height="340px"
 	preload="auto"
     list-folded="true">
