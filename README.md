@@ -1,5 +1,14 @@
+<details>
 
+<summary>参考教程</summary>
 
+- APlayer 音乐模块：
+   https://yelonhimx.github.io/2019/11/08/metingAdd/
+   https://accelerator086.github.io/2020/04/03/Jekyll-Aplayer-MetingJS/
+
+- 
+
+</detalis>
 
 <details>
 
