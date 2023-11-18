@@ -2,7 +2,12 @@
 <link href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css" rel="stylesheet">
 <script src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
 <!-- require MetingJS -->
-<script src="https://unpkg.com/meting@2.0.1/dist/Meting.min.js"></script>
+<script>
+	var meting_api='https://v.iarc.top/?server=:server&type=:type&id=:id&auth=:auth&r=:r';
+	</script>
+	
+	<script src="https://unpkg.com/meting@2.0.1/dist/Meting.min.js"></script>
+
 
 <!-- metingjs 加载参数： https://github.com/metowolf/MetingJS -->
 <meting-js
@@ -14,9 +19,3 @@
     volume="0.35"
 	theme="{{page.theme}}">
 </meting-js>
-
-<script>
-	var meting_api='https://v.iarc.top/?server=:server&type=:type&id=:id&auth=:auth&r=:r';
-	</script>
-	
-	<script src="https://unpkg.com/meting@2.0.1/dist/Meting.min.js"></script>
